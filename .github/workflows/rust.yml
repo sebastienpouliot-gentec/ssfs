@@ -23,12 +23,12 @@ jobs:
     - name: Run tests
       run: cargo test --verbose
 
-  generate-sbom:
-    name: Generate SBOM
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  # generate-sbom:
+  #  name: Generate SBOM
+  #  runs-on: ubuntu-latest
+   # steps:
+     # - name: Checkout repository
+      #  uses: actions/checkout@v4
       # TODO 3: installer cargo-cyclonedx
       # https://github.com/CycloneDX/cyclonedx-rust-cargo
       # - name: Install cargo-cyclonedx
