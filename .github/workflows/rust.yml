@@ -1,7 +1,7 @@
 # TODO 1: ajouter les directives generales
 # https://github.com/actions/starter-workflows/blob/main/ci/rust.yml
  
-jobs:
+jobs: 
   build:
     name: Build
     runs-on: ubuntu-latest
