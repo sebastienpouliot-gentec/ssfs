@@ -46,9 +46,9 @@ jobs:
       #     name: sbom
       #     path: 
 
-  trufflehog:
-    name: TruffleHog
-    runs-on: ubuntu-latest
+   # trufflehog:
+     # name: TruffleHog
+     # runs-on: ubuntu-latest
     # TODO 6: ajouter la tache de trufflehog
     # https://github.com/trufflesecurity/trufflehog#octocat-trufflehog-github-action
     # steps:
